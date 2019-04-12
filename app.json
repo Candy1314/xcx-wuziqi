@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/wuziqi/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9797f5",
+    "navigationBarTitleText": "方式五子棋",
+    "navigationBarTextStyle": "white"
+  }
+}

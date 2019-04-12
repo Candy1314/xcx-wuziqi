@@ -1,0 +1,15 @@
+<!--pages/wuziqi/index.wxml-->
+<view class="wuziqi-container" >
+  <canvas canvas-id='customCanvas' class="customCanvas" style="width:{{viewWidth}}px;height:{{viewWidth}}px" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" ></canvas>
+  <view class="buttom-view" >
+    <text style="color:white" >{{textShow}}</text>
+  </view>
+  <view class="buttom-action-view">
+    <view class="action-view-left" bindtap='reStart'>
+      <text style="color:white" >重新开始</text>
+    </view>
+    <view class="action-view-right" bindtap='backStep'>
+      <text style="color:white" >悔棋一步</text>
+    </view>
+  </view>
+</view>
